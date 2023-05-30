@@ -1,0 +1,3 @@
+/home/orangepi/ffmpeg_rtsp_mpp-master/build/CMakeFiles/mpp_test.dir
+/home/orangepi/ffmpeg_rtsp_mpp-master/build/CMakeFiles/edit_cache.dir
+/home/orangepi/ffmpeg_rtsp_mpp-master/build/CMakeFiles/rebuild_cache.dir

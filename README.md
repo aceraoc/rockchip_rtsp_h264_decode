@@ -1,0 +1,2 @@
+# rockchip_rtsp_h264_decode
+使用ffmpeg、rkmpp、opencv实现了香橙派Pi5平台的硬件编码
