@@ -7,4 +7,8 @@ ffmpeg_rtsp_mpp-master是工程代码，源项目：https://github.com/MUZLATAN/
 如果用QT编译器打开情况下，会生成CMakeList.txt文件夹，如果这个程序第一次在你的电脑编译时候是没有问题的，那么下次你移动开发环境时候会导致无法正确make，那么请你删除CMakeList.txt.user的文件并且重新编译
 Ubuntu22.04 GNOME已经验证可以使用，Ubuntu20.04xfce和Ubuntu22.04xfce未验证
 
-缺陷报告：目前yuv无法存储，可以拉取rtsp流
+请把opencv4文件夹覆盖到你的/usr/include目录下
+
+建议把工程文件夹下的ffm_lib替换成你自己的依赖文件，原作者的ffmpeg版本比较老了；原作者开发板是firefly所以依赖可能和香橙派不太一样建议把里面的依赖替换成香橙派的。
+
+缺陷报告：目前yuv无法存储，下一个版本争取把yuv生成出来，可以拉取rtsp流
